@@ -38,6 +38,8 @@ public abstract class CondimentDecorator : Beverage
     }
 }
 
+
+//Не впевнений, чи можна це рахувати за проксі, але тим не менш
 public class Milk : CondimentDecorator
 {
     public Milk(Beverage beverage) : base(beverage) { }
